@@ -1,0 +1,42 @@
+name: Lipik
+type: profile
+description: 'Lipik profile for creating base disrtibution.'
+core_version_requirement: '^8.8 || ^9 || ^10'
+
+distribution:
+  name: 'Lipik'
+project: 'lipik'
+version: '1.0.0'
+
+dependencies:
+  # Core.
+  - block_content
+  - breakpoint
+  - drupal:config
+  - contextual
+  - image
+  - options
+  - path
+  - taxonomy
+  - field
+  - entity_reference_revisions
+  - search
+  - shortcut
+  - toolbar
+  - file
+  - views
+  - editor
+  - ckeditor
+  - jsonapi
+  - filter
+
+  # Contrib.
+  - redirect:redirect
+
+  # Custom.
+
+install: []
+
+themes:
+  - stark
+  - claro
