@@ -29,6 +29,7 @@ dependencies:
   - ckeditor
   - jsonapi
   - filter
+  - media
 
   # Contrib.
   - redirect:redirect
